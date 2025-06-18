@@ -514,19 +514,19 @@ main {
   overflow: hidden;
 }
 
-.gallery-carousel:hover .slideshow {
+.gallery-carousel:hover .gallery-slideshow {
   animation-play-state: running;
 }
 
 .gallery-overlay {
   position: absolute;
   z-index: 2;
-  color: white;
+  color: rgb(236, 232, 232);
   text-align: center;
   width: 100%;
   top: 50%;
   transform: translateY(-50%);
-  text-shadow: 0 0 10px rgba(149, 6, 6, 0.728);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
   pointer-events: none;
 }
 
@@ -567,7 +567,7 @@ main {
 }
 
 .gallery-slide:hover::after {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.46);
 }
 
 @keyframes scrollRight {
