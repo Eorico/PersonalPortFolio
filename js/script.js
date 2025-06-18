@@ -278,6 +278,7 @@ class CursorOverlayFollower {
   }
 }
 
+
 new PageLoader();
 new Sidebar();
 

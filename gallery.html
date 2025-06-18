@@ -7,9 +7,28 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-      <section id="gallery" class="section gallery" tabindex="0" aria-label="Gallery section showcasing images">
-      <h1>Gallery</h1>
-      <p>Explore selected favorite works and design snapshots below.</p>
+   <section id="gallery" class="gallery-carousel">
+      <div class="gallery-overlay">
+        <h1>My Aesthetic Gallery</h1>
+        <p>Enjoy a seamless display of my favorite visuals.</p>
+      </div>  
+
+      <div class="gallery-slideshow">
+        <div class="gallery-slide" style="background-image: url('images/ibj1.webp');"></div>
+        <div class="gallery-slide" style="background-image: url('images/ibg2.jpg');"></div>
+        <div class="gallery-slide" style="background-image: url('images/ibj3.webp');"></div>
+        <div class="gallery-slide" style="background-image: url('images/ibj4.jpg');"></div> <!-- New -->
+        <div class="gallery-slide" style="background-image: url('images/ibj5.jpg');"></div> <!-- New -->
+
+        <!-- Duplicate slides for smooth looping -->
+        <div class="gallery-slide" style="background-image: url('images/ibj1.webp');"></div>
+        <div class="gallery-slide" style="background-image: url('images/ibg2.jpg');"></div>
+        <div class="gallery-slide" style="background-image: url('images/ibj3.webp');"></div>
+        <div class="gallery-slide" style="background-image: url('images/ibj4.jpg');"></div>
+        <div class="gallery-slide" style="background-image: url('images/ibj5.jpg');"></div>
+      </div>
     </section>
+
+
 </body>
 </html>
